@@ -18,7 +18,7 @@
 ![Closed Issues](https://img.shields.io/github/issues-closed/MaquestiauxLabs/demo-react-resume)
 
 ## 📈 Organisation Metrics
-![Metrics](https://raw.githubusercontent.com/MaquestiauxLabs/.github/main/metrics.svg)
+<img src="https://raw.githubusercontent.com/MaquestiauxLabs/.github/main/metrics.svg" alt="Metrics">
 
 ## 🤝 Contributing
 Guidelines, coding standards, and PRD methodology.

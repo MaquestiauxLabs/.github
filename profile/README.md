@@ -29,5 +29,5 @@ maquejp@gmail.com
 
 ![Repo Stats](https://github-readme-stats.vercel.app/api?username=MaquestiauxLabs&show_icons=true)
 
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=MaquestiauxLabs&repo=repo-name)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=MaquestiauxLabs&repo=demo-react-resume)
 

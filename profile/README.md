@@ -16,6 +16,7 @@
 
 ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=MaquestiauxLabs&repo=repo-name)
 
+![Metrics](https://raw.githubusercontent.com/MaquestiauxLabs/.github/main/metrics.svg)
 
 ## 🤝 Contributing
 Guidelines, coding standards, and PRD methodology.

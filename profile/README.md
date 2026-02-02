@@ -12,10 +12,12 @@
 - [Demo Resume (using React)](https://github.com/orgs/MaquestiauxLabs/projects/2)
 - [Demo Resume (using Angular)](https://github.com/MaquestiauxLabs/project-3)
 
-![Repo Stats](https://github-readme-stats.vercel.app/api?username=MaquestiauxLabs&show_icons=true)
+## 📊 Repository Stats (per project)
+![Open Issues](https://img.shields.io/github/issues/MaquestiauxLabs/project-3)
+![Closed Issues](https://img.shields.io/github/issues-closed/MaquestiauxLabs/project-3)
 
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=MaquestiauxLabs&repo=repo-name)
-
+## 📈 Organisation Metrics
+*(Will appear once metrics.svg is generated)*  
 ![Metrics](https://raw.githubusercontent.com/MaquestiauxLabs/.github/main/metrics.svg)
 
 ## 🤝 Contributing
@@ -23,3 +25,9 @@ Guidelines, coding standards, and PRD methodology.
 
 ## 📬 Contact
 maquejp@gmail.com
+
+
+![Repo Stats](https://github-readme-stats.vercel.app/api?username=MaquestiauxLabs&show_icons=true)
+
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=MaquestiauxLabs&repo=repo-name)
+

@@ -15,39 +15,36 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          # Your Personal Access Token (PAT)
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Target: Organization configuration
           user: MaquestiauxLabs
           template: classic
           base: header, repositories
-          
-          # Fix for Org context
           repositories_affiliations: owner
 
-          # Plugins
+          # --- PLUGINS ---
           plugin_traffic: yes
-
+          plugin_lines: yes
+          
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 12
 
-          plugin_lines: yes
-
           plugin_activity: yes
           plugin_activity_limit: 5
 
-          # Followup: Fixed by narrowing scope to avoid 'undefined' issues
           plugin_followup: yes
           plugin_followup_sections: repositories
 
-          # Updated Projects: Removed the specific paths that caused the Classic API error
-          # This will now attempt to pull active Projects (v2)
-          plugin_projects: yes
+          # --- PROJECT V2 FIX ---
+          # Disable the old plugin and use the V2 version
+          plugin_projects: no 
           plugin_projects_limit: 4
-          plugin_projects_descriptions: yes
+          
+          # This enables the modern Projects (v2) plugin
+          # It uses the newer GitHub GraphQL nodes
+          plugin_projects2: yes
+          plugin_projects2_limit: 4
 
-          # Output settings
+          # --- OUTPUT ---
           filename: metrics.svg
           committer_token: ${{ secrets.METRICS_TOKEN }}

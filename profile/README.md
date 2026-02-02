@@ -1,12 +1,19 @@
-## Hi there 👋
+# MaquestiauxLabs
 
-<!--
+🚀 Building robust, explicit, and maintainable software solutions.
 
-**Here are some ideas to get you started:**
+## 🔧 What we do
+- Node.js / TypeScript backend architecture  
+- DevContainer optimisation  
+- PostgreSQL & MariaDB environments  
+- Workflow governance & automation  
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 📚 Featured Projects
+- [project-1](https://github.com/MaquestiauxLabs/project-1)
+- [project-2](https://github.com/MaquestiauxLabs/project-2)
+
+## 🤝 Contributing
+Guidelines, coding standards, and PRD methodology.
+
+## 📬 Contact
+info@maquestiauxlabs.com

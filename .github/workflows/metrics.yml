@@ -35,16 +35,6 @@ jobs:
           plugin_followup: yes
           plugin_followup_sections: repositories
 
-          # --- PROJECT V2 FIX ---
-          # Disable the old plugin and use the V2 version
-          plugin_projects: no 
-          plugin_projects_limit: 4
-          
-          # This enables the modern Projects (v2) plugin
-          # It uses the newer GitHub GraphQL nodes
-          plugin_projects2: yes
-          plugin_projects2_limit: 4
-
           # --- OUTPUT ---
           filename: metrics.svg
           committer_token: ${{ secrets.METRICS_TOKEN }}

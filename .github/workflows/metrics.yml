@@ -16,6 +16,7 @@ jobs:
 
           # Target: your organisation
           user: MaquestiauxLabs
+          organization: MaquestiauxLabs
           template: classic
           base: header, repositories
 

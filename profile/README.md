@@ -9,11 +9,11 @@
 - Workflow governance & automation  
 
 ## 📚 Featured Projects
-- [project-1](https://github.com/MaquestiauxLabs/project-1)
-- [project-2](https://github.com/MaquestiauxLabs/project-2)
+- [Demo Resume (using React)](https://github.com/orgs/MaquestiauxLabs/projects/2)
+- [Demo Resume (using Angular)](https://github.com/MaquestiauxLabs/project-3)
 
 ## 🤝 Contributing
 Guidelines, coding standards, and PRD methodology.
 
 ## 📬 Contact
-info@maquestiauxlabs.com
+maquejp@gmail.com

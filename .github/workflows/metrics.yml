@@ -50,10 +50,8 @@ jobs:
           plugin_followup: yes
           plugin_followup_sections: repositories
 
-          plugin_stars: yes
-          plugin_stars_limit: 5
-
           plugin_projects: yes
+          plugin_projects_repositories: MaquestiauxLabs/projects/2, MaquestiauxLabs/projects/3
           plugin_projects_descriptions: yes
 
           # Output settings

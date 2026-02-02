@@ -20,6 +20,7 @@ jobs:
 
           # Target: Organization configuration
           user: MaquestiauxLabs
+          user_type: organization
           template: classic
           base: header, repositories
           

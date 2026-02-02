@@ -18,7 +18,6 @@
 ![Closed Issues](https://img.shields.io/github/issues-closed/MaquestiauxLabs/demo-react-resume)
 
 ## 📈 Organisation Metrics
-*(Will appear once metrics.svg is generated)*  
 ![Metrics](https://raw.githubusercontent.com/MaquestiauxLabs/.github/main/metrics.svg)
 
 ## 🤝 Contributing

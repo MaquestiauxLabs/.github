@@ -53,6 +53,9 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 5
 
+          plugin_projects: yes
+          plugin_projects_descriptions: yes
+
           # Output settings
           filename: metrics.svg
           committer_token: ${{ secrets.METRICS_TOKEN }}

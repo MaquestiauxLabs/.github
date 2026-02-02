@@ -12,6 +12,11 @@
 - [Demo Resume (using React)](https://github.com/orgs/MaquestiauxLabs/projects/2)
 - [Demo Resume (using Angular)](https://github.com/MaquestiauxLabs/project-3)
 
+![Repo Stats](https://github-readme-stats.vercel.app/api?username=MaquestiauxLabs&show_icons=true)
+
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=MaquestiauxLabs&repo=repo-name)
+
+
 ## 🤝 Contributing
 Guidelines, coding standards, and PRD methodology.
 

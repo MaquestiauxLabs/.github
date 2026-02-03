@@ -15,12 +15,12 @@
 <!-- LANGUAGES:START -->
 ## 💻 Programming Languages
 
-![Shell](https://img.shields.io/badge/Shell-71%25-green?style=flat-square) 
-![CSS](https://img.shields.io/badge/CSS-9%25-purple?style=flat-square) 
-![TypeScript](https://img.shields.io/badge/TypeScript-7%25-blue?style=flat-square) 
-![Awk](https://img.shields.io/badge/Awk-6%25-grey?style=flat-square) 
-![JavaScript](https://img.shields.io/badge/JavaScript-3%25-yellow?style=flat-square) 
-![HTML](https://img.shields.io/badge/HTML-2%25-orange?style=flat-square) 
+![Shell](https://img.shields.io/badge/Shell-71%25-green?style=for-the-badge) 
+![CSS](https://img.shields.io/badge/CSS-9%25-purple?style=for-the-badge) 
+![TypeScript](https://img.shields.io/badge/TypeScript-7%25-blue?style=for-the-badge) 
+![Awk](https://img.shields.io/badge/Awk-6%25-grey?style=for-the-badge) 
+![JavaScript](https://img.shields.io/badge/JavaScript-3%25-yellow?style=for-the-badge) 
+![HTML](https://img.shields.io/badge/HTML-2%25-orange?style=for-the-badge) 
 ---
 
 <!-- LANGUAGES:END -->
@@ -58,5 +58,5 @@ maquejp@gmail.com
 
 <!-- LAST_UPDATED:START -->
 
-_Last updated: 2026-02-03 12:57 UTC_
+_Last updated: 2026-02-03 13:00 UTC_
 <!-- LAST_UPDATED:END -->

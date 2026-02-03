@@ -7,8 +7,8 @@
 
 ![Todo](https://img.shields.io/badge/Todo-1-blue?style=for-the-badge&logo=todoist&logoColor=white) 
 ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge&logo=gitlab&logoColor=white) 
-![Done](https://img.shields.io/badge/Done-2-green?style=for-the-badge&logo=checkmarx&logoColor=white)
-![Completion Rate](https://img.shields.io/badge/Completion-66%25-yellow?style=for-the-badge&logo=github&logoColor=white)
+![Done](https://img.shields.io/badge/Done-1-green?style=for-the-badge&logo=checkmarx&logoColor=white)
+![Completion Rate](https://img.shields.io/badge/Completion-50%25-yellow?style=for-the-badge&logo=github&logoColor=white)
 
 <!-- GLOBAL_OVERVIEW:END -->
 
@@ -34,12 +34,6 @@
 
 <!-- PROJECT_BREAKDOWN:START -->
 ## 📋 Project Breakdown
-
-### 🚀 Multi-Tech Demos
-![Todo](https://img.shields.io/badge/Todo-0-blue?style=for-the-badge)
-![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge)
-![Done](https://img.shields.io/badge/Done-1-green?style=for-the-badge)
-![Project Completion](https://img.shields.io/badge/100%25-brightgreen?style=for-the-badge&logo=github&logoColor=white)
 
 ### 🚀 Demo Resume (using React)
 ![Todo](https://img.shields.io/badge/Todo-0-blue?style=for-the-badge)
@@ -71,5 +65,5 @@ maquejp@gmail.com
 
 <!-- LAST_UPDATED:START -->
 
-_Last updated: 2026-02-03 12:56 UTC_
+_Last updated: 2026-02-03 12:57 UTC_
 <!-- LAST_UPDATED:END -->

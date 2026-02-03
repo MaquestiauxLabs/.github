@@ -1,14 +1,1 @@
-{
-  "project": "Multi-Tech Demos",
-  "todo": 0,
-  "ongoing": 0,
-  "closed": 0,
-  "repos": [
-    {
-      "repo": "demo-react-resume",
-      "todo": 0,
-      "ongoing": 0,
-      "closed": 0
-    }
-  ]
-}
+{"project": "Multi-Tech Demos", "todo": 0, "ongoing": 0, "done": 0}

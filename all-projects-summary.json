@@ -3,42 +3,18 @@
     "project": "Multi-Tech Demos",
     "todo": 0,
     "ongoing": 0,
-    "closed": 0,
-    "repos": [
-      {
-        "repo": "demo-react-resume",
-        "todo": 0,
-        "ongoing": 0,
-        "closed": 0
-      }
-    ]
+    "done": 0
   },
   {
     "project": "Demo Resume (using React)",
     "todo": 0,
     "ongoing": 0,
-    "closed": 1,
-    "repos": [
-      {
-        "repo": "demo-react-resume",
-        "todo": 0,
-        "ongoing": 0,
-        "closed": 1
-      }
-    ]
+    "done": 1
   },
   {
     "project": "Demo Resume (using Angular)",
     "todo": 1,
     "ongoing": 0,
-    "closed": 0,
-    "repos": [
-      {
-        "repo": "demo-angular-resume",
-        "todo": 1,
-        "ongoing": 0,
-        "closed": 0
-      }
-    ]
+    "done": 0
   }
 ]

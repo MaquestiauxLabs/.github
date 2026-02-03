@@ -15,6 +15,13 @@
 ## 📊 MaquestiauxLabs Metrics
 
 <!-- METRICS:START -->
+| Project | Todo | Ongoing | Done |
+| :--- | :---: | :---: | :---: |
+| Multi-Tech Demos | 0 | 0 | 0 |
+| Demo Resume (using React) | 0 | 0 | 1 |
+| Demo Resume (using Angular) | 1 | 0 | 0 |
+
+_Last updated: 2026-02-03 09:24 UTC_
 <!-- METRICS:END -->
 
 ## 🤝 Contributing

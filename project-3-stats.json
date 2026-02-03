@@ -1,14 +1,1 @@
-{
-  "project": "Demo Resume (using Angular)",
-  "todo": 1,
-  "ongoing": 0,
-  "closed": 0,
-  "repos": [
-    {
-      "repo": "demo-angular-resume",
-      "todo": 1,
-      "ongoing": 0,
-      "closed": 0
-    }
-  ]
-}
+{"project": "Demo Resume (using Angular)", "todo": 1, "ongoing": 0, "done": 0}

@@ -16,11 +16,8 @@
 
 <!-- METRICS:START -->
 ## 📊 Project Overview
-
 <div class="metrics-container">
 <h3>📊 Project Overview</h3>
-<div class="project-card">
-
 ### 🚀 Multi-Tech Demos
 
 | Todo | In Progress | Done |
@@ -32,10 +29,6 @@
 </div>
 
 *1 items • 100% complete*
-
-</div>
-
-<div class="project-card">
 
 ### 🚀 Demo Resume (using React)
 
@@ -49,10 +42,6 @@
 
 *1 items • 100% complete*
 
-</div>
-
-<div class="project-card">
-
 ### 🚀 Demo Resume (using Angular)
 
 | Todo | In Progress | Done |
@@ -65,9 +54,7 @@
 
 *1 items • 0% complete*
 
-</div>
-
-_Last updated: 2026-02-03 11:43 UTC_
+_Last updated: 2026-02-03 11:51 UTC_
 <!-- METRICS:END -->
 
 ## 🤝 Contributing

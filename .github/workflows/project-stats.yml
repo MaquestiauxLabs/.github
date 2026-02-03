@@ -49,8 +49,8 @@ jobs:
           jq -r '.[] | "| \(.project) | \(.todo) | \(.ongoing) | \(.done) |"' all-projects-summary.json >> table.tmp
           echo -e "\n_Last updated: $(date -u +'%Y-%m-%d %H:%M UTC')_" >> table.tmp
       
-          # 2. Replace content between markers
-          sed -i '/<!-- METRICS:START -->/,/<!-- METRICS:END -->/{ 
+          # 2. Inject content between markers (SAFE & IDEMPOTENT)
+          sed -i '/<!-- METRICS:START -->/,/<!-- METRICS:END -->/{
             /<!-- METRICS:START -->/{p; r table.tmp}
             /<!-- METRICS:END -->/p
             d

@@ -72,6 +72,15 @@ jobs:
           # 4. (Optional) Merge all into one big file for Shields.io to consume
           jq -n '[inputs]' project-*-stats.json > all-projects-summary.json
 
+      - name: Generate Markdown Table
+        run: |
+          echo "### 🏗️ Project Breakdown" > STATS.md
+          echo "| Project | Todo | Ongoing | Closed | Top Repos |" >> STATS.md
+          echo "| :--- | :---: | :---: | :---: | :--- |" >> STATS.md
+          
+          # Iterate through the projects in the summary JSON
+          jq -r '.[] | "| \(.project) | \(.todo) | \(.ongoing) | \(.closed) | \(.repos | map(.repo) | join(", ")) |"' all-projects-summary.json >> STATS.md
+
       - name: Deploy to GitHub Pages or Commit
         run: |
           git config user.name "github-actions[bot]"

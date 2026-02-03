@@ -7,8 +7,8 @@
 
 ![Todo](https://img.shields.io/badge/Todo-1-blue?style=for-the-badge&logo=todoist&logoColor=white) 
 ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge&logo=gitlab&logoColor=white) 
-![Done](https://img.shields.io/badge/Done-1-green?style=for-the-badge&logo=checkmarx&logoColor=white)
-![No Status](https://img.shields.io/badge/No%20Status-0-grey?style=for-the-badge&logo=help&logoColor=white)
+![Done](https://img.shields.io/badge/Done-1-green?style=for-the-badge&logo=checkmarx&logoColor=white) 
+![No Status](https://img.shields.io/badge/No%20Status-0-grey?style=for-the-badge&logo=help&logoColor=white) 
 ![Completion Rate](https://img.shields.io/badge/Completion-50%25-yellow?style=for-the-badge&logo=github&logoColor=white)
 
 <!-- GLOBAL_OVERVIEW:END -->
@@ -69,5 +69,5 @@ maquejp@gmail.com
 
 <!-- LAST_UPDATED:START -->
 
-_Last updated: 2026-02-03 14:13 UTC_
+_Last updated: 2026-02-03 14:24 UTC_
 <!-- LAST_UPDATED:END -->

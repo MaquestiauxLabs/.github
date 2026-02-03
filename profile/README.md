@@ -19,6 +19,13 @@
 [![Issues Closed](https://img.shields.io/github/issues-closed/MaquestiauxLabs/demo-react-resume?style=flat-square&color=green)](https://github.com/MaquestiauxLabs/demo-react-resume/issues?q=is%3Aissue+is%3Aclosed)
 [![Language](https://img.shields.io/github/languages/top/MaquestiauxLabs/demo-react-resume?style=flat-square&color=blue)](#)
 
+## Project Stats (per project)
+
+## Project Demo Resume (using React)
+[![Todo](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/MaquestiauxLabs/.github/main/stats.json&query=$.project2.todo&label=todo&style=flat-square&color=lightgrey)](#)
+[![In Progress](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/MaquestiauxLabs/.github/main/stats.json&query=$.project2.open&label=in-progress&style=flat-square&color=blue)](#)
+[![Done](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/MaquestiauxLabs/.github/main/stats.json&query=$.project2.done&label=done&style=flat-square&color=brightgreen)](#)
+
 ## 📈 Organisation Metrics
 ... SOON ...
 

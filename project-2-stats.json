@@ -1,0 +1,14 @@
+{
+  "project": "Demo Resume (using React)",
+  "todo": 0,
+  "ongoing": 0,
+  "closed": 1,
+  "repos": [
+    {
+      "repo": "demo-react-resume",
+      "todo": 0,
+      "ongoing": 0,
+      "closed": 1
+    }
+  ]
+}

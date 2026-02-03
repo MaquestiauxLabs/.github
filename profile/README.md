@@ -13,12 +13,14 @@
 - [Demo Resume (using Angular)](https://github.com/MaquestiauxLabs/project-3)
 
 ## 📊 Repository Stats (per repo)
-### demo-react-resume
-![Open Issues](https://img.shields.io/github/issues/MaquestiauxLabs/demo-react-resume)
-![Closed Issues](https://img.shields.io/github/issues-closed/MaquestiauxLabs/demo-react-resume)
+
+### 🛠 Repository: demo-react-resume
+[![Issues Open](https://img.shields.io/github/issues/MaquestiauxLabs/demo-react-resume?style=flat-square&color=orange)](https://github.com/MaquestiauxLabs/demo-react-resume/issues)
+[![Issues Closed](https://img.shields.io/github/issues-closed/MaquestiauxLabs/demo-react-resume?style=flat-square&color=green)](https://github.com/MaquestiauxLabs/demo-react-resume/issues?q=is%3Aissue+is%3Aclosed)
+[![Language](https://img.shields.io/github/languages/top/MaquestiauxLabs/demo-react-resume?style=flat-square&color=blue)](#)
 
 ## 📈 Organisation Metrics
-<img src="https://raw.githubusercontent.com/MaquestiauxLabs/.github/main/metrics.svg" alt="Metrics">
+... SOON ...
 
 ## 🤝 Contributing
 Guidelines, coding standards, and PRD methodology.

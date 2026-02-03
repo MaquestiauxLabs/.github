@@ -22,7 +22,29 @@
 
 ---
 
-_Last updated: 2026-02-03 12:18 UTC_
+## 📋 Project Breakdown
+
+### 🚀 Multi-Tech Demos
+
+![Project Completion](https://img.shields.io/badge/100%25-brightgreen?style=for-the-badge&logo=github&logoColor=white)
+
+![Todo](https://img.shields.io/badge/Todo-0-blue?style=flat-square) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=flat-square) ![Done](https://img.shields.io/badge/Done-1-green?style=flat-square)
+
+### 🚀 Demo Resume (using React)
+
+![Project Completion](https://img.shields.io/badge/100%25-brightgreen?style=for-the-badge&logo=github&logoColor=white)
+
+![Todo](https://img.shields.io/badge/Todo-0-blue?style=flat-square) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=flat-square) ![Done](https://img.shields.io/badge/Done-1-green?style=flat-square)
+
+### 🚀 Demo Resume (using Angular)
+
+![Project Completion](https://img.shields.io/badge/0%25-red?style=for-the-badge&logo=github&logoColor=white)
+
+![Todo](https://img.shields.io/badge/Todo-1-blue?style=flat-square) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=flat-square) ![Done](https://img.shields.io/badge/Done-0-green?style=flat-square)
+
+---
+
+_Last updated: 2026-02-03 12:21 UTC_
 <!-- METRICS:END -->
 
 ## 🤝 Contributing

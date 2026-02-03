@@ -42,9 +42,17 @@
 ![Done](https://img.shields.io/badge/Done-0-green?style=for-the-badge)
 ![Project Completion](https://img.shields.io/badge/0%25-red?style=for-the-badge&logo=github&logoColor=white)
 
+## 💻 Programming Languages
+
+![Shell](https://img.shields.io/badge/Shell-67%25-green?style=flat-square) 
+![CSS](https://img.shields.io/badge/CSS-13%25-purple?style=flat-square) 
+![TypeScript](https://img.shields.io/badge/TypeScript-9%25-blue?style=flat-square) 
+![JavaScript](https://img.shields.io/badge/JavaScript-4%25-yellow?style=flat-square) 
+![HTML](https://img.shields.io/badge/HTML-2%25-orange?style=flat-square) 
+![Awk](https://img.shields.io/badge/Awk-1%25-grey?style=flat-square) 
 ---
 
-_Last updated: 2026-02-03 12:24 UTC_
+_Last updated: 2026-02-03 12:29 UTC_
 <!-- METRICS:END -->
 
 ## 🤝 Contributing

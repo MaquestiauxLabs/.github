@@ -1,0 +1,79 @@
+name: Update Project Stats
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Fetch and Process Org Stats
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          # 1. Get all Projects in the Org
+          PROJECTS=$(gh api graphql -f query='
+            query($org: String!) {
+              organization(login: $org) {
+                projectsV2(first: 20) {
+                  nodes { id number title }
+                }
+              }
+            }' -f org="MaquestiauxLabs" --jq '.data.organization.projectsV2.nodes[] | select(.title != ".github") | "\(.number)|\(.title)"')
+
+          # Initialize Global Stats
+          echo '{"total_todo": 0, "total_ongoing": 0, "total_closed": 0, "projects": []}' > global-stats.json
+
+          while IFS="|" read -r PROJ_NUM PROJ_TITLE; do
+            echo "Processing Project: $PROJ_TITLE (#$PROJ_NUM)"
+            
+            # 2. Get items, their status, and their repository source
+            QUERY='query($org: String!, $num: Int!) {
+              organization(login: $org) {
+                projectV2(number: $num) {
+                  items(first: 100) {
+                    nodes {
+                      status: fieldValueByName(name: "Status") { ... on ProjectV2ItemFieldSingleSelectValue { name } }
+                      content {
+                        ... on Issue { repository { name } }
+                        ... on PullRequest { repository { name } }
+                      }
+                    }
+                  }
+                }
+              }
+            }'
+            
+            RESULT=$(gh api graphql -f query="$QUERY" -f org="MaquestiauxLabs" -F num=$PROJ_NUM)
+            
+            # 3. Parse with jq to create a per-project breakdown
+            # Maps statuses: "Todo", "In Progress" -> ongoing, "Done" -> closed
+            STATS=$(echo $RESULT | jq '{
+              project: "'"$PROJ_TITLE"'",
+              todo: ([.data.organization.projectV2.items.nodes[] | select(.status.name == "Todo")] | length),
+              ongoing: ([.data.organization.projectV2.items.nodes[] | select(.status.name == "In Progress" or .status.name == "Ongoing")] | length),
+              closed: ([.data.organization.projectV2.items.nodes[] | select(.status.name == "Done" or .status.name == "Closed")] | length),
+              repos: [.data.organization.projectV2.items.nodes | group_by(.content.repository.name)[] | {
+                repo: .[0].content.repository.name,
+                todo: ([.[] | select(.status.name == "Todo")] | length),
+                ongoing: ([.[] | select(.status.name == "In Progress" or .status.name == "Ongoing")] | length),
+                closed: ([.[] | select(.status.name == "Done" or .status.name == "Closed")] | length)
+              }]
+            }')
+
+            echo "$STATS" > "project-$PROJ_NUM-stats.json"
+          done <<< "$PROJECTS"
+
+          # 4. (Optional) Merge all into one big file for Shields.io to consume
+          jq -n '[inputs]' project-*-stats.json > all-projects-summary.json
+
+      - name: Deploy to GitHub Pages or Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add *.json
+          git commit -m "Update project metrics" || exit 0
+          git push

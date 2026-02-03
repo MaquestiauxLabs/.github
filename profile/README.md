@@ -15,46 +15,93 @@
 ## 📊 MaquestiauxLabs Metrics
 
 <!-- METRICS:START -->
-## 📊 Project Overview
-<div class="metrics-container">
-<h3>📊 Project Overview</h3>
+## 📊 Project Dashboard
+
+
 ### 🚀 Multi-Tech Demos
 
-| Todo | In Progress | Done |
-|:----:|:-----------:|:----:|
-| **0** | **0** | **1** |
+![Project Completion](https://img.shields.io/badge/Progress-100%25-brightgreen?style=for-the-badge)
 
-<div class="progress-bar">
-<div class="progress-fill" style="width: 80.0%"></div>
-</div>
+---
 
-*1 items • 100% complete*
+**📋 Task Overview**
+
+![Todo](https://img.shields.io/badge/Todo-0-blue?style=flat-square) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=flat-square) ![Done](https://img.shields.io/badge/Done-1-green?style=flat-square)
+
+
+**📈 Progress Tracker**
+
+![Progress](https://progress-bar.dev/100/?title=Completed&width=600&color=brightgreen&suffix=%25)
+
+**🔥 Activity Level**
+
+![Activity](https://img.shields.io/badge/Activity-Low-grey?style=flat-square)
+
+| Metric | Count | Status |
+|--------|-------|--------|
+| Total Tasks | **1** | 📊 |
+| Completion Rate | **100%** | ✅ Perfect! |
+| Active Work | **0** | 😴 Idle |
+
+---
 
 ### 🚀 Demo Resume (using React)
 
-| Todo | In Progress | Done |
-|:----:|:-----------:|:----:|
-| **0** | **0** | **1** |
+![Project Completion](https://img.shields.io/badge/Progress-100%25-brightgreen?style=for-the-badge)
 
-<div class="progress-bar">
-<div class="progress-fill" style="width: 80.0%"></div>
-</div>
+---
 
-*1 items • 100% complete*
+**📋 Task Overview**
+
+![Todo](https://img.shields.io/badge/Todo-0-blue?style=flat-square) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=flat-square) ![Done](https://img.shields.io/badge/Done-1-green?style=flat-square)
+
+
+**📈 Progress Tracker**
+
+![Progress](https://progress-bar.dev/100/?title=Completed&width=600&color=brightgreen&suffix=%25)
+
+**🔥 Activity Level**
+
+![Activity](https://img.shields.io/badge/Activity-Low-grey?style=flat-square)
+
+| Metric | Count | Status |
+|--------|-------|--------|
+| Total Tasks | **1** | 📊 |
+| Completion Rate | **100%** | ✅ Perfect! |
+| Active Work | **0** | 😴 Idle |
+
+---
 
 ### 🚀 Demo Resume (using Angular)
 
-| Todo | In Progress | Done |
-|:----:|:-----------:|:----:|
-| **1** | **0** | **0** |
+![Project Completion](https://img.shields.io/badge/Progress-0%25-red?style=for-the-badge)
 
-<div class="progress-bar">
-<div class="progress-fill" style="width: 0%"></div>
-</div>
+---
 
-*1 items • 0% complete*
+**📋 Task Overview**
 
-_Last updated: 2026-02-03 11:51 UTC_
+![Todo](https://img.shields.io/badge/Todo-1-blue?style=flat-square) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=flat-square) ![Done](https://img.shields.io/badge/Done-0-green?style=flat-square)
+
+**🔥 Activity Level**
+
+![Activity](https://img.shields.io/badge/Activity-Low-grey?style=flat-square)
+
+| Metric | Count | Status |
+|--------|-------|--------|
+| Total Tasks | **1** | 📊 |
+| Completion Rate | **0%** | 🔴 Needs Work |
+| Active Work | **0** | 😴 Idle |
+
+---
+
+## 🎯 Overall Summary
+
+
+![Total Projects](https://img.shields.io/badge/Projects-3-blue?style=for-the-badge) ![Overall Completion](https://img.shields.io/badge/Completion-66%25-yellow?style=for-the-badge)
+
+---
+
+_Last updated: 2026-02-03 12:00 UTC_ Generated with 🤖 by MaquestiauxLabs/project-metrics-action_
 <!-- METRICS:END -->
 
 ## 🤝 Contributing

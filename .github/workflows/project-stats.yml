@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
 
@@ -16,75 +17,48 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: |
-          # 1. Get all Projects in the Org
-          PROJECTS=$(gh api graphql -f query='
-            query($org: String!) {
-              organization(login: $org) {
-                projectsV2(first: 20) {
-                  nodes { id number title }
-                }
-              }
-            }' -f org="MaquestiauxLabs" --jq '.data.organization.projectsV2.nodes[] | select(.title != ".github") | "\(.number)|\(.title)"')
+          # 1. Get Projects
+          PROJECTS=$(gh api graphql -f query='query($org: String!){organization(login: $org){projectsV2(first: 20){nodes{id number title}}}}' -f org="MaquestiauxLabs" --jq '.data.organization.projectsV2.nodes[] | select(.title != ".github") | "\(.number)|\(.title)"')
 
-          # Initialize Global Stats
-          echo '{"total_todo": 0, "total_ongoing": 0, "total_closed": 0, "projects": []}' > global-stats.json
+          # 2. Reset totals
+          T_TODO=0; T_ONGOING=0; T_DONE=0
 
-          while IFS="|" read -r PROJ_NUM PROJ_TITLE; do
-            echo "Processing Project: $PROJ_TITLE (#$PROJ_NUM)"
+          while IFS="|" read -r NUM TITLE; do
+            QUERY='query($org: String!, $num: Int!){organization(login: $org){projectV2(number: $num){items(first: 100){nodes{status:fieldValueByName(name:"Status"){... on ProjectV2ItemFieldSingleSelectValue{name}}}}}}}'
+            RESULT=$(gh api graphql -f query="$QUERY" -f org="MaquestiauxLabs" -F num=$NUM)
             
-            # 2. Get items, their status, and their repository source
-            QUERY='query($org: String!, $num: Int!) {
-              organization(login: $org) {
-                projectV2(number: $num) {
-                  items(first: 100) {
-                    nodes {
-                      status: fieldValueByName(name: "Status") { ... on ProjectV2ItemFieldSingleSelectValue { name } }
-                      content {
-                        ... on Issue { repository { name } }
-                        ... on PullRequest { repository { name } }
-                      }
-                    }
-                  }
-                }
-              }
-            }'
-            
-            RESULT=$(gh api graphql -f query="$QUERY" -f org="MaquestiauxLabs" -F num=$PROJ_NUM)
-            
-            # 3. Parse with jq to create a per-project breakdown
-            # Maps statuses: "Todo", "In Progress" -> ongoing, "Done" -> closed
-            STATS=$(echo $RESULT | jq '{
-              project: "'"$PROJ_TITLE"'",
-              todo: ([.data.organization.projectV2.items.nodes[] | select(.status.name == "Todo" or .status.name == "Planned")] | length),
-              ongoing: ([.data.organization.projectV2.items.nodes[] | select(.status.name == "In Progress" or .status.name == "Ongoing")] | length),
-              closed: ([.data.organization.projectV2.items.nodes[] | select(.status.name == "Done" or .status.name == "Closed" or .status.name == "Complete")] | length),
-              repos: [.data.organization.projectV2.items.nodes | group_by(.content.repository.name)[] | {
-                repo: .[0].content.repository.name,
-                todo: ([.[] | select(.status.name == "Todo" or .status.name == "Planned")] | length),
-                ongoing: ([.[] | select(.status.name == "In Progress" or .status.name == "Ongoing")] | length),
-                closed: ([.[] | select(.status.name == "Done" or .status.name == "Closed" or .status.name == "Complete")] | length)
-              }]
-            }')
+            # Count per project
+            P_TODO=$(echo $RESULT | jq '[.data.organization.projectV2.items.nodes[] | select(.status.name == "Todo")] | length')
+            P_ONGOING=$(echo $RESULT | jq '[.data.organization.projectV2.items.nodes[] | select(.status.name == "In Progress" or .status.name == "Ongoing")] | length')
+            P_DONE=$(echo $RESULT | jq '[.data.organization.projectV2.items.nodes[] | select(.status.name == "Done")] | length')
 
-            echo "$STATS" > "project-$PROJ_NUM-stats.json"
+            # Update Global Totals
+            T_TODO=$((T_TODO + P_TODO))
+            T_ONGOING=$((T_ONGOING + P_ONGOING))
+            T_DONE=$((T_DONE + P_DONE))
+
+            echo "{\"project\": \"$TITLE\", \"todo\": $P_TODO, \"ongoing\": $P_ONGOING, \"done\": $P_DONE}" > "project-$NUM-stats.json"
           done <<< "$PROJECTS"
 
-          # 4. (Optional) Merge all into one big file for Shields.io to consume
+          echo "{\"total_todo\": $T_TODO, \"total_ongoing\": $T_ONGOING, \"total_closed\": $T_DONE}" > global-stats.json
           jq -n '[inputs]' project-*-stats.json > all-projects-summary.json
 
-      - name: Generate Markdown Table
+      - name: Inject Stats into README
         run: |
-          echo "### 🏗️ Project Breakdown" > STATS.md
-          echo "| Project | Todo | Ongoing | Closed | Top Repos |" >> STATS.md
-          echo "| :--- | :---: | :---: | :---: | :--- |" >> STATS.md
+          # Create Markdown Table
+          echo "| Project | Todo | Ongoing | Done |" > table.tmp
+          echo "| :--- | :---: | :---: | :---: |" >> table.tmp
+          jq -r '.[] | "| \(.project) | \(.todo) | \(.ongoing) | \(.done) |"' all-projects-summary.json >> table.tmp
           
-          # Iterate through the projects in the summary JSON
-          jq -r '.[] | "| \(.project) | \(.todo) | \(.ongoing) | \(.closed) | \(.repos | map(.repo) | join(", ")) |"' all-projects-summary.json >> STATS.md
+          # Inject into the correct path (profile/README.md)
+          FILE="profile/README.md"
+          sed -i '//,//{ //b; //b; d }' $FILE
+          sed -i '//r table.tmp' $FILE
 
-      - name: Deploy to GitHub Pages or Commit
+      - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add *.json
-          git commit -m "Update project metrics" || exit 0
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "docs: update project metrics and README table" || exit 0
           git push

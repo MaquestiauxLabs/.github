@@ -52,7 +52,7 @@
 ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge)
 ![Done](https://img.shields.io/badge/Done-0-green?style=for-the-badge)
 ![No Status](https://img.shields.io/badge/No%20Status-0-grey?style=for-the-badge)
-![Project Completion](https://img.shields.io/badge/Completion-0%25 (clean)-brightgreen?style=for-the-badge&logo=github&logoColor=white)
+![Project Completion](https://img.shields.io/badge/Completion-0%25%20(clean)-brightgreen?style=for-the-badge&logo=github&logoColor=white)
 
 ![Shell](https://img.shields.io/badge/Shell-green?style=flat-square&logo=shell&logoColor=white) 
 ![Awk](https://img.shields.io/badge/Awk-grey?style=flat-square&logo=awk&logoColor=white) 

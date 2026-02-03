@@ -48,15 +48,13 @@ jobs:
           echo "| :--- | :---: | :---: | :---: |" >> table.tmp
           jq -r '.[] | "| \(.project) | \(.todo) | \(.ongoing) | \(.done) |"' all-projects-summary.json >> table.tmp
           echo -e "\n_Last updated: $(date -u +'%Y-%m-%d %H:%M UTC')_" >> table.tmp
-          
-          # 2. Ensure tags exist in profile/README.md
-          if ! grep -q "" profile/README.md; then
-            echo -e "\n\n" >> profile/README.md
-          fi
-          
-          # 3. Inject content between tags (hardcoded strings to prevent regex errors)
-          sed -i '//,//{ //b; //b; d }' profile/README.md
-          sed -i '//r table.tmp' profile/README.md
+      
+          # 2. Replace content between markers
+          sed -i '/<!-- METRICS:START -->/,/<!-- METRICS:END -->/{ 
+            /<!-- METRICS:START -->/{p; r table.tmp}
+            /<!-- METRICS:END -->/p
+            d
+          }' profile/README.md
 
       - name: Commit and Push
         run: |

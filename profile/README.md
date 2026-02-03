@@ -14,9 +14,9 @@
 
 ## 📊 MaquestiauxLabs Metrics
 
-![Todo](https://img.shields.io/badge/dynamic/json?query=$.total_todo&url=https%3A%2F%2Fraw.githubusercontent.com%2FMaquestiauxLabs%2F.github%2Fmain%2Fglobal-stats.json&label=Todo&color=orange)
-![Ongoing](https://img.shields.io/badge/dynamic/json?query=$.total_ongoing&url=https%3A%2F%2Fraw.githubusercontent.com%2FMaquestiauxLabs%2F.github%2Fmain%2Fglobal-stats.json&label=Ongoing&color=blue)
-![Closed](https://img.shields.io/badge/dynamic/json?query=$.total_closed&url=https%3A%2F%2Fraw.githubusercontent.com%2FMaquestiauxLabs%2F.github%2Fmain%2Fglobal-stats.json&label=Closed&color=green)
+<!-- METRICS:START -->
+
+<!-- METRICS:END -->
 
 ## 🤝 Contributing
 Guidelines, coding standards, and PRD methodology.

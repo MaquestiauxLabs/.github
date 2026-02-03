@@ -15,7 +15,6 @@
 ## 📊 MaquestiauxLabs Metrics
 
 <!-- METRICS:START -->
-
 <!-- METRICS:END -->
 
 ## 🤝 Contributing

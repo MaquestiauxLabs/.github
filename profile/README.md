@@ -25,13 +25,6 @@
 
 <!-- LANGUAGES:END -->
 
-## 🔧 What we do
-- Application
-
-## 📚 Featured Projects
-- [Demo Resume (using React)](https://github.com/orgs/MaquestiauxLabs/projects/2)
-- [Demo Resume (using Angular)](https://github.com/MaquestiauxLabs/project-3)
-
 <!-- PROJECT_BREAKDOWN:START -->
 ## 📋 Project Breakdown
 

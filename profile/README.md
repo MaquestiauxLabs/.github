@@ -14,7 +14,6 @@
 <!-- GLOBAL_OVERVIEW:END -->
 
 <!-- LANGUAGES:START -->
-## 💻 Programming Languages
 
 ![Shell](https://img.shields.io/badge/Shell-79%25-green?style=for-the-badge) 
 ![CSS](https://img.shields.io/badge/CSS-6%25-purple?style=for-the-badge) 
@@ -69,5 +68,5 @@ maquejp@gmail.com
 
 <!-- LAST_UPDATED:START -->
 
-_Last updated: 2026-02-03 14:42 UTC_
+_Last updated: 2026-02-03 17:02 UTC_
 <!-- LAST_UPDATED:END -->

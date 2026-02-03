@@ -4,15 +4,12 @@
 
 <!-- GLOBAL_OVERVIEW:START -->
 ## 📊 MaquestiauxLabs Metrics
-
 ![Todo](https://img.shields.io/badge/Todo-1-blue?style=for-the-badge&logo=todoist&logoColor=white) 
 ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge&logo=gitlab&logoColor=white) 
 ![Done](https://img.shields.io/badge/Done-1-green?style=for-the-badge&logo=checkmarx&logoColor=white) 
 ![No Status](https://img.shields.io/badge/No%20Status-0-grey?style=for-the-badge&logo=help&logoColor=white) 
 ![Completion Rate](https://img.shields.io/badge/Completion-50%25-yellow?style=for-the-badge&logo=github&logoColor=white)
-
 <!-- GLOBAL_OVERVIEW:END -->
-
 <!-- LANGUAGES:START -->
 ![Shell](https://img.shields.io/badge/Shell-79%25-green?style=for-the-badge) 
 ![CSS](https://img.shields.io/badge/CSS-6%25-purple?style=for-the-badge) 
@@ -20,10 +17,7 @@
 ![Awk](https://img.shields.io/badge/Awk-4%25-grey?style=for-the-badge) 
 ![JavaScript](https://img.shields.io/badge/JavaScript-2%25-yellow?style=for-the-badge) 
 ![HTML](https://img.shields.io/badge/HTML-1%25-orange?style=for-the-badge) 
----
-
 <!-- LANGUAGES:END -->
-
 <!-- PROJECT_BREAKDOWN:START -->
 ## 📋 Project Breakdown
 

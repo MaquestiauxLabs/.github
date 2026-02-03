@@ -12,8 +12,6 @@
 - [Demo Resume (using React)](https://github.com/orgs/MaquestiauxLabs/projects/2)
 - [Demo Resume (using Angular)](https://github.com/MaquestiauxLabs/project-3)
 
-## 📊 MaquestiauxLabs Metrics
-
 <!-- METRICS:START -->
 ## 🎯 MaquestiauxLabs Organization Overview
 

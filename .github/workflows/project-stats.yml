@@ -49,8 +49,24 @@ jobs:
           jq -r '.[] | "| \(.project) | \(.todo) | \(.ongoing) | \(.done) |"' all-projects-summary.json >> table.tmp
           echo -e "\n_Last updated: $(date -u +'%Y-%m-%d %H:%M UTC')_" >> table.tmp
       
-          # 2. Inject content between markers (POSIX-safe)
-          sed -i '/<!-- METRICS:START -->/,/<!-- METRICS:END -->/{/<!-- METRICS:START -->/{p; r table.tmp}; /<!-- METRICS:END -->/p; d;}' profile/README.md
+          # 2. Inject table between markers using awk (CI-safe)
+          awk '
+            BEGIN { in_block=0 }
+            /<!-- METRICS:START -->/ {
+              print
+              while ((getline line < "table.tmp") > 0) print line
+              in_block=1
+              next
+            }
+            /<!-- METRICS:END -->/ {
+              in_block=0
+              print
+              next
+            }
+            !in_block { print }
+          ' profile/README.md > profile/README.md.new
+      
+          mv profile/README.md.new profile/README.md
 
       - name: Commit and Push
         run: |

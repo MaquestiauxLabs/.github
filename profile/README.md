@@ -15,7 +15,7 @@
 <!-- LANGUAGES:START -->
 ## 💻 Programming Languages
 
-![Shell](https://img.shields.io/badge/Shell-76%25-green?style=for-the-badge) 
+![Shell](https://img.shields.io/badge/Shell-75%25-green?style=for-the-badge) 
 ![CSS](https://img.shields.io/badge/CSS-8%25-purple?style=for-the-badge) 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5%25-blue?style=for-the-badge) 
 ![Awk](https://img.shields.io/badge/Awk-5%25-grey?style=for-the-badge) 
@@ -34,6 +34,10 @@
 ![Done](https://img.shields.io/badge/Done-1-green?style=for-the-badge)
 ![Project Completion](https://img.shields.io/badge/100%25-brightgreen?style=for-the-badge&logo=github&logoColor=white)
 
+![CSS](https://img.shields.io/badge/CSS-purple?style=flat-square&logo=css&logoColor=white) 
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=typescript&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=javascript&logoColor=white) 
+
 ### 🚀 Demo Resume (using Angular)
 ![Todo](https://img.shields.io/badge/Todo-1-blue?style=for-the-badge)
 ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge)
@@ -45,6 +49,9 @@
 ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge)
 ![Done](https://img.shields.io/badge/Done-0-green?style=for-the-badge)
 ![Project Completion](https://img.shields.io/badge/0%25-red?style=for-the-badge&logo=github&logoColor=white)
+
+![Shell](https://img.shields.io/badge/Shell-green?style=flat-square&logo=shell&logoColor=white) 
+![Awk](https://img.shields.io/badge/Awk-grey?style=flat-square&logo=awk&logoColor=white) 
 
 ---
 
@@ -58,5 +65,5 @@ maquejp@gmail.com
 
 <!-- LAST_UPDATED:START -->
 
-_Last updated: 2026-02-03 13:30 UTC_
+_Last updated: 2026-02-03 13:33 UTC_
 <!-- LAST_UPDATED:END -->

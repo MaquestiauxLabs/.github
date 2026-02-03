@@ -25,26 +25,26 @@
 ## 📋 Project Breakdown
 
 ### 🚀 Multi-Tech Demos
-![Todo](https://img.shields.io/badge/Todo-0-blue?style=flat-square)
-![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=flat-square)
-![Done](https://img.shields.io/badge/Done-1-green?style=flat-square)
+![Todo](https://img.shields.io/badge/Todo-0-blue?style=for-the-badge)
+![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge)
+![Done](https://img.shields.io/badge/Done-1-green?style=for-the-badge)
 ![Project Completion](https://img.shields.io/badge/100%25-brightgreen?style=for-the-badge&logo=github&logoColor=white)
 
 ### 🚀 Demo Resume (using React)
-![Todo](https://img.shields.io/badge/Todo-0-blue?style=flat-square)
-![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=flat-square)
-![Done](https://img.shields.io/badge/Done-1-green?style=flat-square)
+![Todo](https://img.shields.io/badge/Todo-0-blue?style=for-the-badge)
+![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge)
+![Done](https://img.shields.io/badge/Done-1-green?style=for-the-badge)
 ![Project Completion](https://img.shields.io/badge/100%25-brightgreen?style=for-the-badge&logo=github&logoColor=white)
 
 ### 🚀 Demo Resume (using Angular)
-![Todo](https://img.shields.io/badge/Todo-1-blue?style=flat-square)
-![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=flat-square)
-![Done](https://img.shields.io/badge/Done-0-green?style=flat-square)
+![Todo](https://img.shields.io/badge/Todo-1-blue?style=for-the-badge)
+![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge)
+![Done](https://img.shields.io/badge/Done-0-green?style=for-the-badge)
 ![Project Completion](https://img.shields.io/badge/0%25-red?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
-_Last updated: 2026-02-03 12:23 UTC_
+_Last updated: 2026-02-03 12:24 UTC_
 <!-- METRICS:END -->
 
 ## 🤝 Contributing

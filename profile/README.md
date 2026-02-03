@@ -31,7 +31,7 @@
 
 **📈 Progress Tracker**
 
-![Progress](https://progress-bar.dev/100/?title=Completed&width=600&color=brightgreen&suffix=%25)
+![Progress](https://progress-bar.dev/100/?title=Completed&width=600)
 
 **🔥 Activity Level**
 
@@ -58,7 +58,7 @@
 
 **📈 Progress Tracker**
 
-![Progress](https://progress-bar.dev/100/?title=Completed&width=600&color=brightgreen&suffix=%25)
+![Progress](https://progress-bar.dev/100/?title=Completed&width=600)
 
 **🔥 Activity Level**
 
@@ -101,7 +101,7 @@
 
 ---
 
-_Last updated: 2026-02-03 12:00 UTC_ Generated with 🤖 by MaquestiauxLabs/project-metrics-action_
+_Last updated: 2026-02-03 12:04 UTC_ Generated with 🤖 by MaquestiauxLabs/project-metrics-action_
 <!-- METRICS:END -->
 
 ## 🤝 Contributing

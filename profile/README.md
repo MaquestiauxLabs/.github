@@ -16,10 +16,10 @@
 <!-- LANGUAGES:START -->
 ## 💻 Programming Languages
 
-![Shell](https://img.shields.io/badge/Shell-77%25-green?style=for-the-badge) 
+![Shell](https://img.shields.io/badge/Shell-78%25-green?style=for-the-badge) 
 ![CSS](https://img.shields.io/badge/CSS-7%25-purple?style=for-the-badge) 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5%25-blue?style=for-the-badge) 
-![Awk](https://img.shields.io/badge/Awk-5%25-grey?style=for-the-badge) 
+![Awk](https://img.shields.io/badge/Awk-4%25-grey?style=for-the-badge) 
 ![JavaScript](https://img.shields.io/badge/JavaScript-2%25-yellow?style=for-the-badge) 
 ![HTML](https://img.shields.io/badge/HTML-1%25-orange?style=for-the-badge) 
 ---
@@ -69,5 +69,5 @@ maquejp@gmail.com
 
 <!-- LAST_UPDATED:START -->
 
-_Last updated: 2026-02-03 13:52 UTC_
+_Last updated: 2026-02-03 14:13 UTC_
 <!-- LAST_UPDATED:END -->

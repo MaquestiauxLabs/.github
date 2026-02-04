@@ -13,11 +13,11 @@
 
 <!-- GLOBAL_OVERVIEW:END -->
 <!-- LANGUAGES:START -->
-![Shell](https://img.shields.io/badge/Shell-87%25-green?style=for-the-badge) 
+![Shell](https://img.shields.io/badge/Shell-84%25-green?style=for-the-badge) 
 ![Awk](https://img.shields.io/badge/Awk-5%25-grey?style=for-the-badge) 
-![TypeScript](https://img.shields.io/badge/TypeScript-3%25-blue?style=for-the-badge) 
-![JavaScript](https://img.shields.io/badge/JavaScript-2%25-yellow?style=for-the-badge) 
-![HTML](https://img.shields.io/badge/HTML-1%25-orange?style=for-the-badge) 
+![TypeScript](https://img.shields.io/badge/TypeScript-4%25-blue?style=for-the-badge) 
+![JavaScript](https://img.shields.io/badge/JavaScript-3%25-yellow?style=for-the-badge) 
+![HTML](https://img.shields.io/badge/HTML-2%25-orange?style=for-the-badge) 
 ![CSS](https://img.shields.io/badge/CSS-0%25-purple?style=for-the-badge) 
 ---
 
@@ -65,5 +65,5 @@ maquejp@gmail.com
 
 <!-- LAST_UPDATED:START -->
 
-_Last updated: 2026-02-04 00:58 UTC_
+_Last updated: 2026-02-04 06:59 UTC_
 <!-- LAST_UPDATED:END -->

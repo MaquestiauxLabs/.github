@@ -5,19 +5,19 @@
 <!-- GLOBAL_OVERVIEW:START -->
 ## 📊 MaquestiauxLabs Metrics
 
-![Todo](https://img.shields.io/badge/Todo-8-blue?style=for-the-badge&logo=todoist&logoColor=white) 
+![Todo](https://img.shields.io/badge/Todo-7-blue?style=for-the-badge&logo=todoist&logoColor=white) 
 ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge&logo=gitlab&logoColor=white) 
-![Done](https://img.shields.io/badge/Done-28-green?style=for-the-badge&logo=checkmarx&logoColor=white) 
+![Done](https://img.shields.io/badge/Done-30-green?style=for-the-badge&logo=checkmarx&logoColor=white) 
 ![No Status](https://img.shields.io/badge/No%20Status-0-grey?style=for-the-badge&logo=help&logoColor=white) 
-![Completion Rate](https://img.shields.io/badge/Completion-77%25-yellow?style=for-the-badge&logo=github&logoColor=white)
+![Completion Rate](https://img.shields.io/badge/Completion-81%25-brightgreen?style=for-the-badge&logo=github&logoColor=white)
 
 <!-- GLOBAL_OVERVIEW:END -->
 <!-- LANGUAGES:START -->
-![TypeScript](https://img.shields.io/badge/TypeScript-45%25-blue?style=for-the-badge) 
+![TypeScript](https://img.shields.io/badge/TypeScript-44%25-blue?style=for-the-badge) 
 ![HTML](https://img.shields.io/badge/HTML-28%25-orange?style=for-the-badge) 
 ![Shell](https://img.shields.io/badge/Shell-12%25-green?style=for-the-badge) 
-![CSS](https://img.shields.io/badge/CSS-9%25-purple?style=for-the-badge) 
-![JavaScript](https://img.shields.io/badge/JavaScript-3%25-yellow?style=for-the-badge) 
+![CSS](https://img.shields.io/badge/CSS-11%25-purple?style=for-the-badge) 
+![JavaScript](https://img.shields.io/badge/JavaScript-2%25-yellow?style=for-the-badge) 
 ![Awk](https://img.shields.io/badge/Awk-0%25-grey?style=for-the-badge) 
 ---
 
@@ -37,15 +37,15 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=javascript&logoColor=white) 
 
 ### 🚀 [Demo Resume (using Angular)](https://github.com/orgs/MaquestiauxLabs/projects/3)
-![Todo](https://img.shields.io/badge/Todo-8-blue?style=for-the-badge&logo=todoist&logoColor=white) 
+![Todo](https://img.shields.io/badge/Todo-7-blue?style=for-the-badge&logo=todoist&logoColor=white) 
 ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge&logo=gitlab&logoColor=white) 
-![Done](https://img.shields.io/badge/Done-4-green?style=for-the-badge&logo=checkmarx&logoColor=white) 
+![Done](https://img.shields.io/badge/Done-6-green?style=for-the-badge&logo=checkmarx&logoColor=white) 
 ![No Status](https://img.shields.io/badge/No%20Status-0-grey?style=for-the-badge&logo=help&logoColor=white) 
-![Project Completion](https://img.shields.io/badge/Completion-33%25-orange?style=for-the-badge&logo=github&logoColor=white)
+![Project Completion](https://img.shields.io/badge/Completion-46%25-orange?style=for-the-badge&logo=github&logoColor=white)
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=typescript&logoColor=white) 
-![HTML](https://img.shields.io/badge/HTML-orange?style=flat-square&logo=html&logoColor=white) 
 ![CSS](https://img.shields.io/badge/CSS-purple?style=flat-square&logo=css&logoColor=white) 
+![HTML](https://img.shields.io/badge/HTML-orange?style=flat-square&logo=html&logoColor=white) 
 
 ### 🚀 [Project Metrics Action](https://github.com/orgs/MaquestiauxLabs/projects/4)
 ![Todo](https://img.shields.io/badge/Todo-0-blue?style=for-the-badge&logo=todoist&logoColor=white) 
@@ -76,5 +76,5 @@ maquejp@gmail.com
 
 <!-- LAST_UPDATED:START -->
 
-_Last updated: 2026-02-12 01:03 UTC_
+_Last updated: 2026-02-13 01:07 UTC_
 <!-- LAST_UPDATED:END -->

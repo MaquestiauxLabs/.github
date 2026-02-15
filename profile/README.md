@@ -5,11 +5,11 @@
 <!-- GLOBAL_OVERVIEW:START -->
 ## 📊 MaquestiauxLabs Metrics
 
-![Todo](https://img.shields.io/badge/Todo-0-blue?style=for-the-badge&logo=todoist&logoColor=white) 
-![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge&logo=gitlab&logoColor=white) 
+![Todo](https://img.shields.io/badge/Todo-3-blue?style=for-the-badge&logo=todoist&logoColor=white) 
+![In Progress](https://img.shields.io/badge/In%20Progress-1-yellow?style=for-the-badge&logo=gitlab&logoColor=white) 
 ![Done](https://img.shields.io/badge/Done-37-green?style=for-the-badge&logo=checkmarx&logoColor=white) 
 ![No Status](https://img.shields.io/badge/No%20Status-0-grey?style=for-the-badge&logo=help&logoColor=white) 
-![Completion Rate](https://img.shields.io/badge/Completion-100%25-brightgreen?style=for-the-badge&logo=github&logoColor=white)
+![Completion Rate](https://img.shields.io/badge/Completion-90%25-brightgreen?style=for-the-badge&logo=github&logoColor=white)
 
 <!-- GLOBAL_OVERVIEW:END -->
 <!-- LANGUAGES:START -->
@@ -48,8 +48,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=javascript&logoColor=white) 
 
 ### 🚀 [Demo Task Manager (Using React)](https://github.com/orgs/MaquestiauxLabs/projects/6)
-![Todo](https://img.shields.io/badge/Todo-0-blue?style=for-the-badge&logo=todoist&logoColor=white) 
-![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge&logo=gitlab&logoColor=white) 
+![Todo](https://img.shields.io/badge/Todo-3-blue?style=for-the-badge&logo=todoist&logoColor=white) 
+![In Progress](https://img.shields.io/badge/In%20Progress-1-yellow?style=for-the-badge&logo=gitlab&logoColor=white) 
 ![Done](https://img.shields.io/badge/Done-0-green?style=for-the-badge&logo=checkmarx&logoColor=white) 
 ![No Status](https://img.shields.io/badge/No%20Status-0-grey?style=for-the-badge&logo=help&logoColor=white) 
 ![Project Completion](https://img.shields.io/badge/Completion-0%25%20(clean)-red?style=for-the-badge&logo=github&logoColor=white)
@@ -87,5 +87,5 @@ maquejp@gmail.com
 
 <!-- LAST_UPDATED:START -->
 
-_Last updated: 2026-02-14 10:59 UTC_
+_Last updated: 2026-02-15 01:06 UTC_
 <!-- LAST_UPDATED:END -->

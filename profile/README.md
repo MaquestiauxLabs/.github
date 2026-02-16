@@ -13,12 +13,11 @@
 
 <!-- GLOBAL_OVERVIEW:END -->
 <!-- LANGUAGES:START -->
-![TypeScript](https://img.shields.io/badge/TypeScript-42%25-blue?style=for-the-badge) 
-![HTML](https://img.shields.io/badge/HTML-26%25-orange?style=for-the-badge) 
+![TypeScript](https://img.shields.io/badge/TypeScript-45%25-blue?style=for-the-badge) 
+![HTML](https://img.shields.io/badge/HTML-28%25-orange?style=for-the-badge) 
 ![CSS](https://img.shields.io/badge/CSS-15%25-purple?style=for-the-badge) 
-![Shell](https://img.shields.io/badge/Shell-11%25-green?style=for-the-badge) 
+![Shell](https://img.shields.io/badge/Shell-7%25-green?style=for-the-badge) 
 ![JavaScript](https://img.shields.io/badge/JavaScript-2%25-yellow?style=for-the-badge) 
-![Awk](https://img.shields.io/badge/Awk-0%25-grey?style=for-the-badge) 
 ---
 
 <!-- LANGUAGES:END -->
@@ -65,7 +64,6 @@
 ![Project Completion](https://img.shields.io/badge/Completion-0%25%20(clean)-red?style=for-the-badge&logo=github&logoColor=white)
 
 ![Shell](https://img.shields.io/badge/Shell-green?style=flat-square&logo=shell&logoColor=white) 
-![Awk](https://img.shields.io/badge/Awk-grey?style=flat-square&logo=awk&logoColor=white) 
 
 ---
 
@@ -79,5 +77,5 @@ maquejp@gmail.com
 
 <!-- LAST_UPDATED:START -->
 
-_Last updated: 2026-02-16 01:03 UTC_
+_Last updated: 2026-02-16 15:01 UTC_
 <!-- LAST_UPDATED:END -->

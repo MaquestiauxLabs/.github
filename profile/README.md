@@ -9,7 +9,7 @@
 <!-- GLOBAL_OVERVIEW:START -->
 ## 📊 Overview
 
-![Total](https://img.shields.io/badge/Total-42-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-40-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-2-red?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total-42-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-40-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-1-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-1-red?style=for-the-badge)
 ![Completion](https://img.shields.io/badge/Completion-95%25-green?style=for-the-badge)
 <!-- GLOBAL_OVERVIEW:END -->
 
@@ -27,7 +27,7 @@
 
 ![TypeScript 58%](https://img.shields.io/badge/TypeScript-58%25-magenta?style=flat-square&logo=typescript&logoColor=white) ![CSS 36%](https://img.shields.io/badge/CSS-36%25-yellow?style=flat-square&logo=css&logoColor=white) ![JavaScript 3%](https://img.shields.io/badge/JavaScript-3%25-lightgrey?style=flat-square&logo=javascript&logoColor=white) ![HTML 1%](https://img.shields.io/badge/HTML-1%25-lightgrey?style=flat-square&logo=html&logoColor=white) 
 ### 🚀 [Demo Task Manager (Using React)](https://github.com/orgs/MaquestiauxLabs/projects/6)
-![Total](https://img.shields.io/badge/Total-5-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-3-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-2-red?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total-5-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-3-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-1-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-1-red?style=for-the-badge)
 ![Completion](https://img.shields.io/badge/Completion-60%25-yellow?style=for-the-badge)
 
 ![TypeScript 68%](https://img.shields.io/badge/TypeScript-68%25-violet?style=flat-square&logo=typescript&logoColor=white) ![JavaScript 19%](https://img.shields.io/badge/JavaScript-19%25-aqua?style=flat-square&logo=javascript&logoColor=white) ![HTML 11%](https://img.shields.io/badge/HTML-11%25-cyan?style=flat-square&logo=html&logoColor=white) ![CSS 0%](https://img.shields.io/badge/CSS-0%25-white?style=flat-square&logo=css&logoColor=white) 
@@ -56,5 +56,5 @@ Guidelines, coding standards, and PRD methodology.
 <maquejp@gmail.com>
 
 <!-- LAST_UPDATED:START -->
-Updated on 2026-02-16 17:04 UTC
+Updated on 2026-02-17 01:02 UTC
 <!-- LAST_UPDATED:END -->

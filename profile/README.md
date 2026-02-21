@@ -9,8 +9,8 @@
 <!-- GLOBAL_OVERVIEW:START -->
 ## 📊 Overview
 
-![Total](https://img.shields.io/badge/Total-41-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-40-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-1-red?style=for-the-badge)
-![Completion](https://img.shields.io/badge/Completion-97%25-green?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total-50-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-45-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-5-red?style=for-the-badge)
+![Completion](https://img.shields.io/badge/Completion-90%25-green?style=for-the-badge)
 <!-- GLOBAL_OVERVIEW:END -->
 
 <!-- PROJECT_BREAKDOWN:START -->
@@ -27,10 +27,10 @@
 
 ![TypeScript 58%](https://img.shields.io/badge/TypeScript-58%25-magenta?style=flat-square&logo=typescript&logoColor=white) ![CSS 36%](https://img.shields.io/badge/CSS-36%25-yellow?style=flat-square&logo=css&logoColor=white) ![JavaScript 3%](https://img.shields.io/badge/JavaScript-3%25-lightgrey?style=flat-square&logo=javascript&logoColor=white) ![HTML 1%](https://img.shields.io/badge/HTML-1%25-lightgrey?style=flat-square&logo=html&logoColor=white) 
 ### 🚀 [Demo Task Manager (Using React)](https://github.com/orgs/MaquestiauxLabs/projects/7)
-![Total](https://img.shields.io/badge/Total-4-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-3-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-1-red?style=for-the-badge)
-![Completion](https://img.shields.io/badge/Completion-75%25-yellow?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total-13-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-8-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-5-red?style=for-the-badge)
+![Completion](https://img.shields.io/badge/Completion-61%25-yellow?style=for-the-badge)
 
-![TypeScript 87%](https://img.shields.io/badge/TypeScript-87%25-yellowgreen?style=flat-square&logo=typescript&logoColor=white) ![JavaScript 9%](https://img.shields.io/badge/JavaScript-9%25-grey?style=flat-square&logo=javascript&logoColor=white) ![HTML 2%](https://img.shields.io/badge/HTML-2%25-lightgrey?style=flat-square&logo=html&logoColor=white) ![CSS 0%](https://img.shields.io/badge/CSS-0%25-white?style=flat-square&logo=css&logoColor=white) 
+![TypeScript 93%](https://img.shields.io/badge/TypeScript-93%25-green?style=flat-square&logo=typescript&logoColor=white) ![JavaScript 4%](https://img.shields.io/badge/JavaScript-4%25-lightgrey?style=flat-square&logo=javascript&logoColor=white) ![HTML 1%](https://img.shields.io/badge/HTML-1%25-lightgrey?style=flat-square&logo=html&logoColor=white) ![CSS 0%](https://img.shields.io/badge/CSS-0%25-white?style=flat-square&logo=css&logoColor=white) 
 ### 🚀 [Github Project Helper](https://github.com/orgs/MaquestiauxLabs/projects/5)
 ![Total](https://img.shields.io/badge/Total-3-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-3-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-0-red?style=for-the-badge)
 ![Completion](https://img.shields.io/badge/Completion-100%25-green?style=for-the-badge)
@@ -56,5 +56,5 @@ Guidelines, coding standards, and PRD methodology.
 <maquejp@gmail.com>
 
 <!-- LAST_UPDATED:START -->
-Updated on 2026-02-20 01:00 UTC
+Updated on 2026-02-21 00:58 UTC
 <!-- LAST_UPDATED:END -->

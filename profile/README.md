@@ -9,8 +9,8 @@ MaquestiauxLabs
 <!-- GLOBAL_OVERVIEW:START -->
 ## 📊 Overview
 
-![Total](https://img.shields.io/badge/Total-88-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-80-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-2-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-6-red?style=for-the-badge)
-![Completion](https://img.shields.io/badge/Completion-90%25-green?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total-88-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-85-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-3-red?style=for-the-badge)
+![Completion](https://img.shields.io/badge/Completion-96%25-green?style=for-the-badge)
 <!-- GLOBAL_OVERVIEW:END -->
 
 <!-- PROJECT_BREAKDOWN:START -->
@@ -35,10 +35,10 @@ MaquestiauxLabs
 - 🌐 [MaquestiauxLabs/demo-react-resume](https://github.com/MaquestiauxLabs/demo-react-resume)
 
 ### 🌐 [Demo Task Manager (Using React)](https://github.com/orgs/MaquestiauxLabs/projects/7)
-![Total](https://img.shields.io/badge/Total-47-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-39-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-2-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-6-red?style=for-the-badge)
-![Completion](https://img.shields.io/badge/Completion-82%25-green?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total-47-blue?style=for-the-badge) ![Done](https://img.shields.io/badge/Done-44-green?style=for-the-badge) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow?style=for-the-badge) ![Todo](https://img.shields.io/badge/Todo-3-red?style=for-the-badge)
+![Completion](https://img.shields.io/badge/Completion-93%25-green?style=for-the-badge)
 
-![TypeScript 98%](https://img.shields.io/badge/TypeScript-98%25-brightgreen?style=flat-square&logo=typescript&logoColor=white) ![JavaScript 1%](https://img.shields.io/badge/JavaScript-1%25-lightgrey?style=flat-square&logo=javascript&logoColor=white) ![CSS 0%](https://img.shields.io/badge/CSS-0%25-white?style=flat-square&logo=css&logoColor=white) ![HTML 0%](https://img.shields.io/badge/HTML-0%25-white?style=flat-square&logo=html&logoColor=white) 
+![TypeScript 99%](https://img.shields.io/badge/TypeScript-99%25-brightgreen?style=flat-square&logo=typescript&logoColor=white) ![CSS 0%](https://img.shields.io/badge/CSS-0%25-white?style=flat-square&logo=css&logoColor=white) ![HTML 0%](https://img.shields.io/badge/HTML-0%25-white?style=flat-square&logo=html&logoColor=white) ![JavaScript 0%](https://img.shields.io/badge/JavaScript-0%25-white?style=flat-square&logo=javascript&logoColor=white) 
 
 **Repositories:**
 - 🌐 [MaquestiauxLabs/demo-react-taskmanager](https://github.com/MaquestiauxLabs/demo-react-taskmanager)
@@ -80,5 +80,5 @@ Guidelines, coding standards, and PRD methodology.
 <maquejp@gmail.com>
 
 <!-- LAST_UPDATED:START -->
-Updated on 2026-03-08 01:02 UTC
+Updated on 2026-03-09 01:02 UTC
 <!-- LAST_UPDATED:END -->
